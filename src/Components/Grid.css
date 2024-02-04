@@ -1,0 +1,60 @@
+.GridSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem 0;
+}
+.GridTitile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.GridTitile span{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.GridTitile h1{
+    font-size: 9rem;
+    font-family: var(--font);
+    font-weight: 500;
+}
+.GridTitile p{
+    font-size: 1.2rem;
+}
+.line{
+    font-size: 2rem;
+}
+.Grid3Img,.Grid2Img{
+    width: 100%
+}
+.Grid4Img{
+    margin: 0 auto;
+    padding-top: 25%;
+    width: 50%;
+}
+
+@media screen and (min-width:10px) and (max-width:780px) {
+    .GridSection{
+        grid-template-columns: 1fr;
+        margin: 2rem 0;
+        gap: 2rem;
+    }
+    .GridTitile span{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .GridTitile h1{
+        font-size: 4rem;
+    }
+    .GridTitile p{
+        font-size: 1rem;
+    }
+    .line{
+        font-size: 2rem;
+    }
+    .Grid4Img{
+        padding-top: 10%;
+    }
+}

@@ -1,0 +1,100 @@
+header{
+    background: url("/assets/HeroImg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+.HeaderTitle{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.HeaderName1{
+    width: 30%;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.HeaderTitleImg{
+    width: 20%;
+}
+.HeaderName2{
+    width: 30%;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.HeaderBride h1{
+    font-family: var(--font);
+    font-size: 10rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+
+.headerfooter{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    width: 40%;
+}
+.headerfootername1{
+    font-size: 1.2rem;
+}
+.headerfooterLine{
+    transform: rotate(180deg);
+    color: white;
+    background-color: white;
+    width: 20%;
+    font-size: 0.2rem;
+}
+.headerfootername2{
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:10px) and (max-width:780px) {
+    header{
+        height: 100dvh;
+        padding-top: 2rem;
+        background-position: center;
+    }
+    .HeaderTitle{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .HeaderName1{
+        width: 100%;
+    }
+    .HeaderTitleImg{
+        width: 40%;
+    }
+    .HeaderName2{
+        width: 100%;
+    }
+    
+    .HeaderBride h1{
+        font-size: 4rem;
+    }
+    .headerfooter{
+        padding-top: 1rem;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+    .headerfooterLine{
+        transform: rotate(90deg);
+        width: 10%;
+        font-size: 0.2rem;
+    }
+    .headerfootername2{
+        font-size: 1.2rem;
+    }
+}
