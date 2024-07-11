@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/HarshavardhanPuchakayala/Eden-Rose-Wedding-Photography/assets/85436195/0ef31f7c-ebd2-4843-bd0b-99a7d7067ac4)
+EDEN ROSE is a beautifully crafted wedding invitation website built using ReactJS. It elegantly invites guests to celebrate the union of Rose and Eden. The site features a stunning, responsive design that captures the essence of romance and elegance. With smooth navigation and interactive elements, guests can easily find details about the wedding ceremony, reception, and RSVP options. The homepage showcases a captivating love story of the couple, illustrated with charming animations and high-quality images. EDEN ROSE also includes a countdown timer to the big day, adding excitement for the visitors. Guests can access maps and directions to the venue, along with accommodation suggestions for out-of-town attendees. The website reflects the couple's unique style and personality, ensuring a memorable experience for all who visit.
